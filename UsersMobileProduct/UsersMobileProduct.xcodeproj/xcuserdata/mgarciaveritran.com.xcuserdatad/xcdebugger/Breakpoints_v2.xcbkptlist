@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A3A91FCA-F539-44DA-9E49-A1756DDE85FC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9F16909-0DDF-4BCE-A4A1-93838D37EE96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UsersMobileProduct/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "ValidateCredentials(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C71ADA62-41CC-4041-80A2-1895B6FC9BFB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UsersMobileProduct/UsersTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UsersMobileProduct/DetailsUserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - 7900fb00d15bda7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.labelName.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/UsersMobileProduct/DetailsUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - e3123fac19467e71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.labelName.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/UsersMobileProduct/DetailsUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - 1b9e2a9c559a6d90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.labelName.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/UsersMobileProduct/DetailsUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - 7af4317a5a55aa9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.labelName.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - 708ca65cd55b896d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; UsersMobileProduct.DetailsUserViewController"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/UsersMobileProduct/DetailsUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "249">
+               </Location>
+               <Location
+                  uuid = "5AE571E8-81B8-4FD9-A8AE-06FF6A549DA0 - 3f46a672eefd4af8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UsersMobileProduct.DetailsUserViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;UsersMobileProduct.DetailsUserViewController&gt;"
+                  moduleName = "UsersMobileProduct"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mgarciaveritran.com/Desktop/VeritranTraining/UsersMobileProduct/UsersMobileProduct/DetailsUserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "206">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
