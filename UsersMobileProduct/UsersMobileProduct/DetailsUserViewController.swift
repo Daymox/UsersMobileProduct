@@ -25,12 +25,22 @@ class DetailsUserViewController: UIViewController {
 		labelName.text = user.name
 		labelJobTitle.text = user.jobTitle
 		labelEmail.text = user.email
-		imageProfile.image = UIImage(named: user.image)
+		
+		if let imageUrl = URL(string: user.image) {
+			loadImageAsync(url: imageUrl)
+		}
+	}
+	
+	func loadImageAsync(url: URL) {
+		URLSession.shared.dataTask(with: url) { 
+			[weak self] (data, _, error) in
+			
+			if let data = data, let image = UIImage(data: data) {
+				DispatchQueue.main.async {
+					self?.imageProfile.image = image
+				}
+			}
+		}.resume()
 	}
 }
-
-	
-	
-
-
 
