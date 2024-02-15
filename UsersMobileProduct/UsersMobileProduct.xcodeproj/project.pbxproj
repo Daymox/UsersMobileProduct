@@ -62,6 +62,9 @@
 		0A3FD6532B75282700ACF62A /* UsersMobileProduct */ = {
 			isa = PBXGroup;
 			children = (
+				0A80F69C2B7E6F3200926AE1 /* Controller */,
+				0A80F69B2B7E6F2D00926AE1 /* View */,
+				0A80F69A2B7E6F2700926AE1 /* Model */,
 				0A3FD6542B75282700ACF62A /* AppDelegate.swift */,
 				0A3FD6562B75282700ACF62A /* SceneDelegate.swift */,
 				0A3FD6582B75282700ACF62A /* LoginViewController.swift */,
@@ -73,6 +76,27 @@
 				0A3FD6622B75282A00ACF62A /* Info.plist */,
 			);
 			path = UsersMobileProduct;
+			sourceTree = "<group>";
+		};
+		0A80F69A2B7E6F2700926AE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A80F69B2B7E6F2D00926AE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A80F69C2B7E6F3200926AE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

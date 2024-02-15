@@ -100,22 +100,34 @@
                             <color key="highlightedColor" systemColor="labelColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="usersMobileProduct" textLabel="E5a-i1-iXP" rowHeight="129" style="IBUITableViewCellStyleDefault" id="0zt-z5-16O">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="usersMobileProduct" rowHeight="129" id="0zt-z5-16O">
                                 <rect key="frame" x="0.0" y="94" width="393" height="129"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0zt-z5-16O" id="rH1-36-Bn7">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="129"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E5a-i1-iXP">
-                                            <rect key="frame" x="20" y="0.0" width="353" height="129"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <gestureRecognizers/>
-                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="20"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IBa-ya-laR">
+                                            <rect key="frame" x="20" y="5" width="120" height="119"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="120" id="UZ2-kR-vHg"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dd3-BC-Tba">
+                                            <rect key="frame" x="215" y="54" width="148" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Dd3-BC-Tba" secondAttribute="trailing" constant="30" id="5gb-LO-nHL"/>
+                                        <constraint firstItem="Dd3-BC-Tba" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IBa-ya-laR" secondAttribute="trailing" constant="8" symbolic="YES" id="62S-w9-UTs"/>
+                                        <constraint firstItem="IBa-ya-laR" firstAttribute="top" secondItem="rH1-36-Bn7" secondAttribute="top" constant="5" id="6WP-mM-FZq"/>
+                                        <constraint firstItem="IBa-ya-laR" firstAttribute="centerY" secondItem="Dd3-BC-Tba" secondAttribute="centerY" id="IfN-Nz-3VQ"/>
+                                        <constraint firstItem="IBa-ya-laR" firstAttribute="centerY" secondItem="rH1-36-Bn7" secondAttribute="centerY" id="aXV-he-JD2"/>
+                                        <constraint firstItem="IBa-ya-laR" firstAttribute="leading" secondItem="rH1-36-Bn7" secondAttribute="leadingMargin" id="dpN-it-g4f"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
