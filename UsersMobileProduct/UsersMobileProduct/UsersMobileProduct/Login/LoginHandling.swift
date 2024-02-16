@@ -15,7 +15,7 @@ protocol UserInterfaceHandling {
 extension UserInterfaceHandling where Self: LoginViewController {
 	func configureUIOnEmptyFields(email: String, password: String) {
 		resultLabel.textColor = UIColor.orange
-		resultLabel.text = Constant.emptyField
+		resultLabel.text = LoginConstants.emptyField
 		resultLabel.isHidden = false
 		
 		if email.isEmpty {
@@ -38,10 +38,10 @@ extension UserInterfaceHandling where Self: LoginViewController {
 		
 		if result {
 			resultLabel.textColor = UIColor.blue
-			messageInScreen = Constant.validAccess
+			messageInScreen = LoginConstants.validAccess
 		} else {
 			resultLabel.textColor = UIColor.red
-			messageInScreen = Constant.invalidAccess
+			messageInScreen = LoginConstants.invalidAccess
 		}
 		
 		resultLabel.text = messageInScreen
@@ -55,6 +55,6 @@ protocol CredentialValidation {
 
 extension CredentialValidation where Self: LoginViewController {
 	func validateCredentials(email: String, password: String) -> Bool {
-		return email == Constant.expectedEmail && password == Constant.expectedPassword
+		return email == LoginConstants.expectedEmail && password == LoginConstants.expectedPassword
 	}
 }

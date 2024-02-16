@@ -26,13 +26,13 @@ class LoginViewController: UIViewController, UserInterfaceHandling, CredentialVa
 		configureUIOnValidation(result: credentialsAreValid)
 		if credentialsAreValid {
 			DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-				self.performSegue(withIdentifier: Constant.identifier, sender: self)
+				self.performSegue(withIdentifier: LoginConstants.identifier, sender: self)
 			}
 		}
 	}
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-		if segue.identifier == Constant.identifier {
+		if segue.identifier == LoginConstants.identifier {
 			emailTextField.resignFirstResponder()
 			passwordTextField.resignFirstResponder()
 			emailTextField.text = ""
